@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0.5em;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.itemElement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25em;
+}
+
+.addButton{
+    border:none;
+    background-color: #023047;
+    color: aliceblue;
+    padding: 0.25em 0.5em;
+}
+
+.shoppingCart{
+    border-top: 5px #fb8500 solid;
+}
